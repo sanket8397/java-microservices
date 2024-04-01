@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac05e757-aa07-469a-b348-258efac02065" name="Changes" comment="Update eureka clients">
+    <list default="true" id="ac05e757-aa07-469a-b348-258efac02065" name="Changes" comment="Client side load balancing in order service">
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/sanket/shop/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/sanketshop/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/sanketshop/orderservice/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711999045518</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Client side load balancing">
+      <created>1712000084600</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712000084600</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Client side load balancing in order service">
+      <created>1712000237617</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712000237617</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +222,8 @@
     <MESSAGE value="Set up eureka discovery server" />
     <MESSAGE value="Set up eureka clients" />
     <MESSAGE value="Update eureka clients" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update eureka clients" />
+    <MESSAGE value="Client side load balancing" />
+    <MESSAGE value="Client side load balancing in order service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Client side load balancing in order service" />
   </component>
 </project>
