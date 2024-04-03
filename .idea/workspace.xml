@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac05e757-aa07-469a-b348-258efac02065" name="Changes" comment="Circuit breaker config">
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/sanketshop/orderservice/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/sanketshop/orderservice/controller/OrderController.java" afterDir="false" />
+    <list default="true" id="ac05e757-aa07-469a-b348-258efac02065" name="Changes" comment="Distributed Service config done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/sanketshop/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/sanketshop/orderservice/service/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,11 +136,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderServiceApplication" />
+        <item itemvalue="Application.ApiGatewayApplication" />
         <item itemvalue="Application.InventoryServiceApplication" />
         <item itemvalue="Application.ProductServiceApplication" />
-        <item itemvalue="Application.OrderServiceApplication" />
         <item itemvalue="Application.DiscoveryServerApplication" />
-        <item itemvalue="Application.ApiGatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712101896463</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Circuit breaker set up complete">
+      <created>1712103781286</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712103781286</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Distributed Service config done">
+      <created>1712104612937</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1712104612938</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,6 +304,8 @@
     <MESSAGE value="Spring Security Set up" />
     <MESSAGE value="Spring Security Set up complete" />
     <MESSAGE value="Circuit breaker config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Circuit breaker config" />
+    <MESSAGE value="Circuit breaker set up complete" />
+    <MESSAGE value="Distributed Service config done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Distributed Service config done" />
   </component>
 </project>
