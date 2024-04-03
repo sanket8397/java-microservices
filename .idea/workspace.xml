@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac05e757-aa07-469a-b348-258efac02065" name="Changes" comment="Spring Security Set up">
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/sanket/shop/discoveryserver/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="ac05e757-aa07-469a-b348-258efac02065" name="Changes" comment="Circuit breaker config">
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/sanketshop/orderservice/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/sanketshop/orderservice/controller/OrderController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +60,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ApiGatewayApplication">
+  <component name="RunManager" selected="Application.ProductServiceApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sanket.shop.apigateway.ApiGatewayApplication" />
       <module name="api-gateway" />
@@ -142,11 +135,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApiGatewayApplication" />
         <item itemvalue="Application.InventoryServiceApplication" />
         <item itemvalue="Application.ProductServiceApplication" />
         <item itemvalue="Application.OrderServiceApplication" />
         <item itemvalue="Application.DiscoveryServerApplication" />
+        <item itemvalue="Application.ApiGatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +236,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712015743633</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Spring Security Set up complete">
+      <created>1712024109734</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712024109735</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Circuit breaker config">
+      <created>1712101896463</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712101896463</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +287,8 @@
     <MESSAGE value="API Gateway Setup" />
     <MESSAGE value="API Gateway Setup for eureka" />
     <MESSAGE value="Spring Security Set up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Security Set up" />
+    <MESSAGE value="Spring Security Set up complete" />
+    <MESSAGE value="Circuit breaker config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Circuit breaker config" />
   </component>
 </project>
