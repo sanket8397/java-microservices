@@ -36,3 +36,12 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### My SQL Host Data ###
+my-sql-data
+mongo-data
+/mysql_keycloak_data/
+/postgres/
+/postgres-inventory/
+/postgres-order/
+/grafana/
